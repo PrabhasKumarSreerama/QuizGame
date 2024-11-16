@@ -1,0 +1,53 @@
+.quiz-container{
+    background-color: skyblue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;  
+}
+
+h1 {
+    text-decoration: underline;
+    color: white;
+}
+
+#question {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.answer-options {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.answer-options li {
+    margin: 10px 0;
+}
+
+#submit {
+    background: cornsilk;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#submit:hover {
+    background-color: aquamarine;
+}
+
+.feedback {
+    margin-top: 20px;
+    font-size: 36px;
+    color: red;
+}
+
+.correct-answer {
+    color: green;
+    font-weight: bold;
+}
